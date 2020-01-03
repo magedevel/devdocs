@@ -16,7 +16,7 @@ namespace :build do
     print 'Building the site for staging: $ '.magenta
     sh 'bin/jekyll',
           'build',
-            "--baseurl=/#{ENV['BUILD_NUMBER']}",
+            "--baseurl=/1266",
             '--config=_config.yml,_config.stage.yml',
             '--verbose',
             '--trace',
