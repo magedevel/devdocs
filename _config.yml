@@ -203,5 +203,5 @@ githuburl22: https://github.com/magento/devdocs/tree/master/src/guides/v2.2/
 gdeurl23: /guides/v2.3/
 githuburl23: https://github.com/magento/devdocs/tree/master/src/guides/v2.3/
 
-exclude:
-- guides/v2.2
+# exclude:
+# - guides/v2.2
