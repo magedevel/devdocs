@@ -66,10 +66,10 @@ Magento adds lines similar to the following to `<magento_root>app/etc/env.php`:
 
 ```php
     'session' =>
-    array (
+    [
       'save' => 'redis',
       'redis' =>
-      array (
+      [
         'host' => '127.0.0.1',
         'port' => '6379',
         'password' => '',
@@ -88,8 +88,8 @@ Magento adds lines similar to the following to `<magento_root>app/etc/env.php`:
         'disable_locking' => '0',
         'min_lifetime' => '60',
         'max_lifetime' => '2592000'
-      )
-    ),
+      ]
+    ],
 ```
 
  {:.bs-callout-info}
